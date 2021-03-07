@@ -140,6 +140,19 @@ body.scale-cv {
   transform: translate(5px, 0);
 }
 
+.scale-cv .education__data,
+.scale-cv .experience__data {
+  gap: 0.25rem;
+}
+
+.scale-cv .skills__name {
+  margin-bottom: var(--mb-1);
+}
+
+.scale-cv .interests__container {
+  column-gap: 2.5rem;
+}
+
 .generate-pdf {
   /* display: none; */
   position: absolute;
